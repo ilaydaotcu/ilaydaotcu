@@ -1,0 +1,12 @@
+# Local .terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform.lock.hcl
+
+# Ignore override files and logs
+crash.log
+*.tfplan
+override.tf
+override.tf.json
